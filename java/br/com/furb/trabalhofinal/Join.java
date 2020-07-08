@@ -14,7 +14,7 @@ public class Join extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_join);
 
-        // Botão para retornar para lista de eventos
+        // Botão para retornar para lista de eventos. Teste
         Button BtBackToList = (Button) findViewById(R.id.btBackToList);
         BtBackToList.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
